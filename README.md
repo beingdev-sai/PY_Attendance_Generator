@@ -75,5 +75,3 @@ Each attendance file will contain:
 
 ---
 
-## 📜 License
-This project is for educational use. Feel free to modify and expand it!
