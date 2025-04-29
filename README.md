@@ -1,10 +1,10 @@
-# 🎯 Face Recognition Attendance System
+#  Face Recognition Attendance System
 
 An easy-to-use GUI-based application for marking student attendance by recognizing faces in class photos, using InsightFace deep learning models.
 
 ---
 
-## 🚀 Features
+##  Features
 - Upload student images to build a face database.
 - Upload a class group photo to automatically mark attendance.
 - Progress bar for real-time feedback during processing.
@@ -13,7 +13,7 @@ An easy-to-use GUI-based application for marking student attendance by recognizi
 
 ---
 
-## 📦 Requirements
+##  Requirements
 Install the following Python libraries before running the project:
 ```bash
 pip install opencv-python insightface pillow
@@ -23,7 +23,7 @@ Ensure you have Python 3.10 or later installed.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```plaintext
 /
 ├── Attendance/         # Folder where daily attendance CSV files are saved
@@ -34,7 +34,7 @@ Ensure you have Python 3.10 or later installed.
 
 ---
 
-## 🧓‍♂️ How to Add New Student Faces
+##  How to Add New Student Faces
 1. Run the program (`python your_script.py`).
 2. Click the **"Add New Face"** button.
 3. Enter the student's **name** and **roll number** when prompted.
@@ -43,7 +43,7 @@ Ensure you have Python 3.10 or later installed.
 
 ---
 
-## 🏫 How to Mark Attendance
+##  How to Mark Attendance
 1. Click the **"Upload Photo"** button.
 2. Select a **class group photo** containing students' faces.
 3. The system detects and recognizes faces, marking attendance for known students.
@@ -53,14 +53,14 @@ Ensure you have Python 3.10 or later installed.
 
 ---
 
-## 📄 Attendance CSV Format
+##  Attendance CSV Format
 Each attendance file will contain:
 | Name | Roll No | Date | Time |
 |:----:|:-------:|:----:|:----:|
 
 ---
 
-## ⚙️ Notes
+##  Notes
 - Only images (`.jpg`, `.png`) are supported.
 - Matching threshold is set at **0.5** cosine similarity.
 - Each day generates a **new** attendance CSV file.
@@ -68,7 +68,7 @@ Each attendance file will contain:
 
 ---
 
-## 💡 Tips
+##  Tips
 - Use **clear, front-facing** photos for best recognition accuracy.
 - You can re-train by simply replacing images in `known_faces/`.
 - Make sure names and roll numbers are unique to avoid overwriting files.
